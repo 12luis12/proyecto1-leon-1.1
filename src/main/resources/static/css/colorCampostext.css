@@ -1,0 +1,9 @@
+.formulario-amarillo {
+            background-color: #FFCD00; /* Color amarillo claro */
+            padding: 15px; /* Espaciado interno para el formulario */
+            border-radius: 5px; /* Bordes redondeados */
+        }
+        /* Clase personalizada para el fondo gris de los campos */
+.campo-gris {
+            background-color: #EAE9E9; /* Color gris claro */
+        }

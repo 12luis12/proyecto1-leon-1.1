@@ -1,0 +1,9 @@
+body {
+    background-color: rgb(255, 255, 255); /* Cambia el valor por el color que desees */
+}
+label,h5 {
+    color: #012E6D; /* Cambia el valor por el color que desees */
+}
+h5 {
+    font-size: 28px; /* Cambia el valor por el tamaño que desees */
+}

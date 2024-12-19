@@ -1,0 +1,126 @@
+body {
+      background: #f4f4f4;
+      color: #333;
+    }
+    .modal-content {
+      border-radius: 8px;
+      border: 1px solid #ddd;
+    }
+    .modal-header, .modal-footer {
+      border: none;
+    }
+    .modal-header h3 {
+      margin: 0;
+    }
+    .radio-buttons {
+      margin-top: 10px;
+    }
+    .full-width-item textarea {
+      width: 100%;
+      height: 150px; /* Ajusta la altura aquí */
+    }
+    .btn-limpiar, .btn-guardar {
+      margin-top: 10px;
+    }
+    .form-frame {
+      border: 1px solid #ccc;
+      padding: 15px;
+      border-radius: 5px;
+      background-color: #fff;
+      margin-bottom: 15px;
+    }
+    .header-frame {
+      border: 0.5px solid #d1d6d6;
+      padding: 10px;
+      border-radius: 5px;
+      background-color: #f9f9f9;
+      text-align: center;
+      margin-bottom: 15px;
+    }
+
+
+    .form-group label {
+    font-size: 12px; /* Cambia este valor según sea necesario */
+    color: #007bff; 
+  }
+
+  /* Reducir el tamaño de letra de los textarea y inputs */
+  .form-group input.form-control, 
+  .form-group textarea.form-control {
+    font-size: 14px; /* Cambia este valor según sea necesario */
+    color: #000000; 
+    font-weight: 300;  /* Peso de la fuente (más fino) */
+    font-family: 'Courier new'; /* Fuente moderna */  /* Fuente de máquina de escribir */ }
+
+  /* Hacer los inputs más delgados */
+  .form-group input.form-control, 
+  .form-group textarea.form-control {
+    padding: 5px; /* Reduce el relleno interno */
+    height: 20px; /* Ajusta la altura del input */
+    line-height: 1.5; /* Ajusta la altura de línea del texto interno */
+  }
+
+  /* Para reducir el tamaño del textarea específicamente */
+  .form-group textarea.form-control {
+    height: auto; /* Ajusta el tamaño según el contenido */
+    min-height: 50px; /* Un valor mínimo para mantener el área de texto utilizable */
+  }
+  .btn {
+    font-size: 12px;  /* Tamaño de la letra del botón */
+    padding: 5px 10px;  /* Relleno interno del botón */
+    height: 30px;  /* Altura del botón */
+    color: #fff; 
+  }
+
+  /* Opcional: hacer que los botones 'Guardar' y 'Limpiar' sean aún más pequeños */
+  .btn-limpiar, .btn-guardar {
+    font-size: 11px;  /* Tamaño de la letra */
+    padding: 4px 8px;  /* Relleno interno más pequeño */
+    height: 28px;  /* Altura del botón */
+  }
+
+  #id_form_consolidacion {
+    margin-top: 10px;   /* Ajustar el margen superior */
+    margin-bottom: 10px; /* Ajustar el margen inferior */
+    padding-top: 10px;   /* Opcional: reducir el relleno interno superior */
+    padding-bottom: 10px; /* Opcional: reducir el relleno interno inferior */
+  }
+
+  /* Reducir margen entre las filas y grupos de formularios */
+  .form-group {
+    margin-bottom: 10px;  /* Reducir el margen inferior entre los elementos del formulario */
+  }
+
+  /* Reducir margen dentro de los textarea y inputs */
+  .form-control {
+    padding-top: 5px;     /* Ajustar el relleno interno superior */
+    padding-bottom: 5px;  /* Ajustar el relleno interno inferior */
+  }
+
+  /* Reducir margen de los botones */
+  .btn {
+    margin-top: 5px;      /* Reducir margen superior de los botones */
+    margin-bottom: 5px;   /* Reducir margen inferior de los botones */
+  }
+  .header-frame {
+    margin-left: 20px;  /* Margen izquierdo */
+    margin-right: 30px; /* Margen derecho */
+  }
+  #labelflujo1, #labelCmm1, #Unidadsolicitante1, #numguia1, #proforma1, 
+  #origen1, #destino1 {
+  text-align: left;
+}
+
+.control-label {
+  text-align: left;
+  margin-bottom: 0;  /* Reduce el espacio inferior */
+  padding: 0;        /* Elimina el padding extra */
+}
+
+.row .col-lg-3 {
+  padding-left: 20px;  /* Ajusta el padding izquierdo */
+  padding-right: 20px; /* Ajusta el padding derecho */
+}
+.taller-textarea {
+  height: 300px; /* Adjust height as needed */
+}
